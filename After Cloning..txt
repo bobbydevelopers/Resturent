@@ -1,0 +1,11 @@
+After Cloning.
+
+composer install or composer update
+cp .env.example .env
+Set up .env file
+php artisan migrate
+php artisan storage:link
+php artisan key:generate
+npm install
+npm run dev
+php artisan serve
